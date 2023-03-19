@@ -1,0 +1,124 @@
+.footer-container {
+    background: rgb(220,218,217);
+    background: linear-gradient(90deg, rgba(220,218,217,1) 0%, rgba(245,245,245,1) 100%); 
+    padding: 5%;
+}
+
+.col-1 h1 {
+    font-size: 1.4rem;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.row {
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 0 20px;
+
+}
+.row-1{
+    padding-left: 0;
+}
+.row-5{
+    padding-right: 0;
+}
+.row-1, .row-5 {
+    flex: 2;
+    
+}
+
+.row-1 p {
+    max-width: 200px;
+    margin-right: 60px;
+    color: #7D7D7D;
+}
+.row-1 a {
+    color: #b47500;
+}
+
+.row ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.row li{
+    padding: 2px 0px;
+}
+.row ul a{
+    color: #7D7D7D;
+    font-size: 0.8rem;
+    
+}
+
+.row ul a:hover{
+    color: #00B4D8;
+    
+}
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 12px 0px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #2E2E2E;
+    color: #7d7d7d;
+    outline: none;
+  }
+
+  .subscribe-form button {
+      position: absolute;
+      height: 100%;
+      right: 0;
+      background: transparent;
+      padding: 0px;
+      border: none;
+      top: 0;
+      cursor: pointer;
+  }
+
+@media (max-width: 768px) {
+    .col-1{
+        flex-direction: column;
+    }
+    .row{
+        padding: 10px 0;
+    }
+    .row ul li{
+        display: inline-flex;
+        padding-right: 42px;
+    }
+    .row-1 p {
+        max-width: 100%;
+    }
+    h4{
+        margin-bottom: 10px;
+    }
+    
+
+} 
+
+.col-2{
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid rgba(125, 125, 125, 0.5);
+    display: flex;
+
+}
+.col-2 span{
+    flex: 1;
+    font-size: 0.8rem;
+    color: #7d7d7d;
+}
+
+.logos svg{
+    padding-left: 15px;
+    color: #7d7d7d;
+}

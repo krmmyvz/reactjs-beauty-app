@@ -1,0 +1,187 @@
+.main-navbar{
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  backdrop-filter: blur(10px); 
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.3s ease-in-out; 
+  transition: box-shadow 0.3s ease-in-out; 
+  box-shadow: 0 0 0 black;
+  justify-content: center;
+  display: flex;
+}
+.navbar-scrolled {
+  background-color: rgba(255, 255, 255, 0.5); /* Beyaz arka plan */
+  box-shadow: 0 0 3px black;
+}
+
+.header {
+  display: flex;
+  width: 90%;
+  border-bottom: 1px solid rgba(125, 125, 125, 0.5);
+  padding: 20px 0;
+  left: 5%;
+  justify-content: center;
+}
+
+.header-scrolled {
+  border-bottom: none;
+}
+
+.navbar,
+.language {
+  flex: 1;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: left;
+
+}
+
+ .nav-btn {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	display: none;
+  padding: 0;
+	font-size: 1.8rem;
+  color: #000;
+}
+.nav-btn svg{
+	align-items: center;
+}
+
+.navbar li {
+  position: relative;
+  padding-right: 24px;
+
+}
+
+
+.navbar a,
+.navbar a:focus,
+.language a,
+.language a:focus {
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #000;
+  transition: 0.3s;
+  padding: 5px 2px;
+  cursor: pointer;
+}
+
+.navbar a::after,
+.language a::after {
+  display: block;
+  content: '';
+  border-bottom: solid 2px #00B4D8;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.navbar a:hover::after,
+.language a:hover::after {
+  transform: scaleX(1);
+}
+
+.navbar a i,
+.navbar a:focus i,
+.language a i,
+.language a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #00B4D8;
+
+}
+
+.language ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: right;
+}
+
+.language li {
+  position: relative;
+  
+  padding-left: 24px;
+  height: 37px;
+}
+
+
+@media (max-width: 768px) {
+   .nav-btn {
+    display: block;
+    flex: 1;
+		opacity: 1;
+    text-align: left;  
+	}
+
+  .nav-flex{
+    flex:1;
+  }
+  .navbar {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100vh;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: blanchedalmond;
+		transition: 1s;
+	}
+  .navbar li{
+    padding: 0;
+  }
+  .nav-links{
+    padding: 0;
+		display: flex;
+		flex-direction: column;
+    font-size: 32px;
+  }
+
+	.responsive_nav {
+		transform: translateY(100vh);
+	}
+
+  .responsive_nav a{
+    font-size: 2rem;
+  }
+
+	.nav-close {
+		position: absolute;
+		top: 20px;
+		left: 5%;
+   
+	}
+
+}

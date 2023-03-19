@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/reactjs-beautyapp/static/css/main.672cd10b.css",
+    "main.js": "/reactjs-beautyapp/static/js/main.0129dec4.js",
+    "static/media/bg2.jpg": "/reactjs-beautyapp/static/media/bg2.229591d432999c571647.jpg",
+    "static/media/bg5.jpg": "/reactjs-beautyapp/static/media/bg5.bcc3bc84b977c743083d.jpg",
+    "static/media/bg3.jpg": "/reactjs-beautyapp/static/media/bg3.ec5ef48118174688ba05.jpg",
+    "static/media/bg4.jpg": "/reactjs-beautyapp/static/media/bg4.8e24cf7b575c7497673d.jpg",
+    "static/media/bg1.jpeg": "/reactjs-beautyapp/static/media/bg1.334ba5f9b3130c7713d1.jpeg",
+    "static/media/wn2.png": "/reactjs-beautyapp/static/media/wn2.c117564153a1343a16de.png",
+    "index.html": "/reactjs-beautyapp/index.html",
+    "main.672cd10b.css.map": "/reactjs-beautyapp/static/css/main.672cd10b.css.map",
+    "main.0129dec4.js.map": "/reactjs-beautyapp/static/js/main.0129dec4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.672cd10b.css",
+    "static/js/main.0129dec4.js"
+  ]
+}
